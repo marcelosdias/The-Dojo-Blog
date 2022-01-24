@@ -1,0 +1,57 @@
+.create {
+    width: 100%;
+    max-width: 400px;
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.create h2 {
+    font-size: 20px;
+
+    color: var(--primary-color);
+
+    margin-bottom: 30px;
+}
+
+.create form {
+    display: flex;
+    flex-direction: column;
+}
+
+.create form input,
+.create form textarea,
+.create form select {
+    display: block;
+
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    padding: 6px 10px;  
+    margin: 10px 0;
+
+    width: auto;
+    max-width: 400px;
+}
+
+.create form button {
+    width: 100%;
+    max-width: 200px;
+
+    margin: 10px auto;
+
+    background-color: var(--primary-color);
+
+    color: #fff;
+    font-weight: bold;
+    
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+
+    transition: background-color 200ms;
+}
+
+.create form button:hover {
+    background-color: #D82F62;
+}

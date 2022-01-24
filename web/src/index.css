@@ -1,0 +1,23 @@
+:root {
+    --primary-color: #f1356d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+
+    padding: 20px;
+}

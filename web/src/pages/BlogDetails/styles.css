@@ -1,0 +1,46 @@
+.blog-details article {
+    display: flex;
+    flex-direction: column;
+
+    width: 600px;
+}
+
+.blog-details article h2 {
+    font-size: 20px;
+
+    color: var(--primary-color);
+
+    margin-bottom: 10px;
+}
+
+.blog-details article p + p {
+    margin: 20px 0;
+}
+
+.blog-details article div {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.blog-details article button {
+    background-color: var(--primary-color);
+
+    color: #fff;
+    font-weight: bold;
+    
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+
+    width: 100%;
+    max-width: 200px;
+
+    margin: 10px auto;
+
+    transition: background-color 200ms;
+}
+
+.blog-details article button:hover {
+    background-color: #D82F62;
+}
